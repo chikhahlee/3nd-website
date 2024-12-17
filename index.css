@@ -1,0 +1,104 @@
+html {
+  background-color: whitesmoke;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1290px;
+  height: 700px;
+  padding-left: 70px;
+}
+/* title */
+.title {
+  margin: auto;
+  max-width: 215px;
+  line-height: 20px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: xx-large;
+}
+/* input */
+input {
+  margin: 50px 370px;
+  width: 500px;
+  height: 40px;
+  float: inline-start;
+  border: solid 0.5px;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+/* box_pokemon */
+img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 30px;
+}
+.box {
+  margin: 5px;
+  padding: auto;
+  width: 200px;
+  height: 270px;
+  text-align: center;
+  border: solid 2px white;
+  border-radius: 10px;
+  background-color: white;
+}
+.box1,
+.box2,
+.box3 {
+  float: left;
+}
+.box4,
+.box5,
+.box6 {
+  float: inline-start;
+}
+.minibox1 {
+  width: 150px;
+  height: 10px;
+  padding-left: 25px;
+}
+.grass {
+  padding: 3px 3px;
+  margin: 0px 3px 0px 19px;
+  float: left;
+  background-color: limegreen;
+  border: solid 0.1px limegreen;
+  border-radius: 6px;
+}
+.poison {
+  padding: 3px 3px;
+  margin: 0px 19px 0px 3px;
+  float: right;
+  background-color: mediumorchid;
+  border: solid 0.1px mediumorchid;
+  border-radius: 6px;
+}
+.fire1 {
+  width: 40px;
+  height: 20px;
+  padding: 2px 2px;
+  margin: auto;
+  background-color: orangered;
+  border-radius: 6px;
+}
+.minibox2 {
+  width: 150px;
+  height: 10px;
+  padding-left: 25px;
+}
+.fire2 {
+  padding: 3px 3px;
+  margin: 0px 3px 0px 29px;
+  float: left;
+  background-color: orangered;
+  border: solid 0.1px orangered;
+  border-radius: 6px;
+}
+.flying {
+  padding: 3px 3px;
+  margin: 0px 30px 0px 3px;
+  float: right;
+  background-color: mediumorchid;
+  border: solid 0.1px mediumorchid;
+  border-radius: 6px;
+}
